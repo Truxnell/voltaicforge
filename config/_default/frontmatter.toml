@@ -1,1 +1,4 @@
 date = ['date',':filename', ':default']
+lastmod = ["lastmod", ":git", "date", "publishDate"]
+publishDate = ["publishDate", "date"]
+expiryDate = ["expiryDate"]

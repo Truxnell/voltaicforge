@@ -3,6 +3,32 @@ baseurl = "https://voltaicforge.com"
 languageCode = "en-au"
 paginate = 5
 title = "Voltaicforge"
+buildDrafts = false 
+
+[minify]
+[minify.tdewolff]
+[minify.tdewolff.html]
+keepWhitespace = true
+
+[related]
+threshold = 80
+includeNewer = true
+toLower = false
+
+[[related.indices]]
+name = "keywords"
+weight = 100
+
+[[related.indices]]
+name = "date"
+weight = 10
+pattern = "2006"
+
+[imaging]
+resampleFilter = "CatmullRom"
+# Default JPEG quality setting. Default is 75.
+quality = 75
+anchor = "smart"
 
 # Theme i18n support
 # Available values: en, fr, id, ja, ko, pt-br, zh-cn, zh-tw, es, de, nl, it, th, el, uk, ar
