@@ -14,7 +14,7 @@ toc: false
 
 I love my Nexus 6P. It’s a fantastic android phone and easily the best phone I’ve ever owned (despite the almost excellent experience with my Samsung Galaxy S4). The Nexus 6P is perfect for someone who wants a non-bloated OS/ROM but also still excellent hardware.
 
-Also, the phone is encouraging me to be very social. Like, calling my friends from my pocket whilst there at work. Sorry, Crossy.
+Also, the phone is encouraging me to be social. Like, calling my friends from my pocket whilst there at work. Sorry, Crossy.
 
 I’ve been scratching my head and finally found out the root settings that were causing the pocket dialing.
 
