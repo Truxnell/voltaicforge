@@ -1,26 +1,25 @@
 ---
+draft: true
 title: 'Responsive Images in Jekyll'
-
-excerpt: "How I'm getting responsive images in Jekyll with Jekyll-picture-tag"
-header:
-  overlay_filter: 0.5
-  overlay_image: assets/images/avr_attiny_2313a_first_blinky.jpg
-  teaser: assets/images/Ipad_images_stock.jpg
+aliases: /website/jekyll-responsive-images/
+description: "How I'm getting responsive images in Jekyll with Jekyll-picture-tag"
+images: avr_attiny_2313a_first_blinky.jpg
 categories:
   - Website
 tags:
   - Jekyll
+toc: false
 ---
 
 ## Responsive images, the Jekyll way
 
 One of the first things I did in my exploration of Jekyll was to go away from using GitHub to generate the site. The first limitation that frustrated me was the inability to use plugins. Currently, I only use one plugin that I couldn't use on GitHub - which relates to responsive images.
 
-I shoot most of my pictures that I'm using for the site on my DSLR - which means I'm getting large pictures. I export from lightroom via a preset I have setup. However, the process of resizing images for the web is an additional step in publishing a post. I want to be able to toss the image into a folder, type out some text in Notepad++, and upload the site without worrying about image size, resizing, srcset, etc.
+I shoot most of my pictures that I'm using for the site on my DSLR - which means I'm getting large pictures. I export from Lightroom via a preset I have setup. However, the process of resizing images for the web is an additional step in publishing a post. I want to be able to toss the image into a folder, type out some text in Notepad++, and upload the site without worrying about image size, resizing, srcset, etc.
 
 Without plugins, this means that all the images you have on your site are going to be resized in the browser - which is a big detractor for page load speed and general usability of the site.
 
-So I set out to find a plugin that would do responsive images (via srcset or picture tags) as well as automatically resizing the images so I didn't have to worry about anything except the parent image.
+So I set out to find a plugin that would do responsive images (via srcset or picture tags) as well as automatically resizing the images, so I didn't have to worry about anything except the parent image.
 
 ## Jekyll-picture-tags
 
@@ -50,18 +49,17 @@ picture:
       source_default:
         width: "600"
 ```
+{{< hint info >}}
+Ensure your indentation is correct if copying a config - misalignment's will give you a dreaded generic error message `Liquid Exception: undefined method [] for nil:NilClass in _drafts/JekyllAnchors.md/#excerpt`
+{{< /hint >}}
 
-**Note:** Ensure your indentation is correct if copying a config - misalignments will give you a dreaded generic error message `Liquid Exception: undefined method [] for nil:NilClass in _drafts/JekyllAnchors.md/#excerpt`
-{: .notice--info}
+{{< hint warning >}}
+Also ensure your `base-url` in `_config.yml` is set to an empty string "" (`base-url:   ""`). Without this, the images won't be found or load correctly, even if it generates correctly.
+{{< /hint >}}
 
-**Warning:** Also ensure your `base-url` in `_config.yml` is set to an empty string "" (`base-url:   ""`). Without this, the images won't be found or load correctly, even if it generates correctly.
-{: .notice--warning}
-
-After much fiddling and debugging, I had it working. I decided to add it to my shortcuts in Notepad++ using [FingerText][fingertext]. I came up with the following code, wich also allowed me to have an alt and title text in the tag.
+After much fiddling and debugging, I had it working. I decided to add it to my shortcuts in Notepad++ using [FingerText][fingertext]. I came up with the following code, which also allowed me to have an alt and title text in the tag.
 
 FingerText enables me Notepad++ users to write blocks of text with a single keyword (amongst other uses). So now when I type `respimage` with a tab immediately after, the below code will be automatically inserted and the text between `$[![` and `]!]` will be selected upon each tab to allow me to enter the relevant details. Entering an Image Filename (from my /assets/images/ folder) and an Image title defines the image, and the Preset name will tell Jekyll-picture-tag which config branch to run - which dictates the which sets of images to include.
-
-{% raw %}
 
 ```liquid
 {% capture imagesrc %}$[![Image_Filename]!]{% endcapture %}
@@ -71,12 +69,11 @@ FingerText enables me Notepad++ users to write blocks of text with a single keyw
 
 ```
 
-{% endraw %}
+{{< hint warning >}}
+Jekyll-picture-tag also hates spaces in picture filenames. Not that you should have spaces in filenames anyway, but that's another thing I stumbled on
+{{< /hint >}}
 
-**Warning:** Jekyll-picture-tag also hates spaces in picture filenames. Not that you should have spaces in filenames anyway, but that's another thing I stumbled on
-{: .notice--warning}
-
-I now have images that (should) be responsive for mobile and desktop, and I don't have to do the resizing myself!
+I now have images that (should) be responsive for mobile and desktop, and I don't have to do the resizing myself.
 
 [jekyll-responsive-images]: https://github.com/wildlyinaccurate/jekyll-responsive-image
 [jekyll-picture-tags]: https://github.com/robwierzbowski/jekyll-picture-tag
