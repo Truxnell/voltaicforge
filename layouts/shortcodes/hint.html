@@ -1,0 +1,3 @@
+<blockquote class="book-hint {{ .Get 0 }}">
+  <b>{{ .Get 0 | strings.Title }}:</b> {{ .Inner | .Page.RenderString }}
+</blockquote>
