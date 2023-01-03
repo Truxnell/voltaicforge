@@ -18,15 +18,15 @@ I have gotten a batch of cheap seven segments from DealExtreme, and it was high 
 
 However, I have no BCD to seven segment chips. No matter, I can bodge it up just using 7 pins. So I ran through some code to just drive each segment with a pin from an ATTiny2313a.
 
-I found from the datasheet for the 7-seg LED that it was a common anode. So that means I had to drive LOW to sink current to light LEDs - and keep HIGH to keep segments off.
+I found from the data-sheet for the 7-seg LED that it was a common anode. So that means I had to drive LOW to sink current to light LEDs - and keep HIGH to keep segments off.
 
 Starting off by working out the seven segment display and working out in a table which logic levels for each led; to drive the segments for numbers 0-9. I'm sure it was searchable online, but where's the fun in that?
 
-![Working out which leds to drive for each number](poormans_seven_segment_writeup.jpg)
+![Working out which led's to drive for each number](poormans_seven_segment_writeup.jpg)
 
 Using my new target board to hook up the 2313a to a breadboard - with 330&#937; from each LED. I saw from the datasheet for the LED seven segment that it had common anode on pins 3 & 8. Using the pinout below I was able to breadboard connections. It was a simple case of matching up PB0-PB7 to match up with the led segments from the datasheet, via the letters.
 
-![6161BS seven segment wiring from datasheet](led_datasheet.png)
+![6161BS seven segment wiring from data-sheet](led_datasheet.png)
 
 I hooked up PB0 through PB7 to the seven segment display, using the pinouts above to correlate to the pinouts I drew out. I did get tripped up on the direction here - thinking that PB0 was the highest bit in the register! Of course, it isn't!
 
@@ -95,5 +95,5 @@ int main(void)
 
 ![Seven segment display, poorman style](seven_segment_poorman.jpg)
 
-[schematicpdf]: /assets/pdf/PoorMans_Seven_Segment.pdf
+[schematicpdf]: PoorMans_Seven_Segment.pdf
 [circuitmaker]: http://circuitmaker.com/Projects/77BEF137-9137-430F-81A3-6B6F78F57DEB
