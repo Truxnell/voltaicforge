@@ -24,7 +24,7 @@ I’m actually struggling a bit to find decent tutorials for MCU programming (I 
 The Atmel-ICE data-sheet nicely doesn’t include the direction of the tab in the user guide. The pinout on the user guide doesn’t include the tab on the 6-pin connector. I have added it to the data-sheet image below - the tabbed connector is on the side of MISO, SCK and RESET (for SPI programming)
 {{< /hint >}}
 
-![Pinout of Ateml-ICE SPI 6 pin wire clarified with tab connector](ateml_ice_SPI_pinout_clarified.png)
+![Pinout of Ateml-ICE SPI 6 pin wire clarified with tab connector](atmel_ice_SPI_pinout_clarified.png)
 
 So after plugging in the programmer I confirmed all was well in Atmel Studio 7. `Tools -> Device programming` gets you to the device programming screen, and selecting `Atmel-ICE` tool and your chosen device (in my case I had the ATTiny 2313A, so I selected `ATtiny2313a` from the device selection). The interface is `ISP` and you can click Apply.
 

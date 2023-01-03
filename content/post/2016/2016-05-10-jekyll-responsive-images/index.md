@@ -1,9 +1,8 @@
 ---
-draft: true
 title: 'Responsive Images in Jekyll'
 aliases: /website/jekyll-responsive-images/
 description: "How I'm getting responsive images in Jekyll with Jekyll-picture-tag"
-images: avr_attiny_2313a_first_blinky.jpg
+image: Code.jpg
 categories:
   - Website
 tags:
@@ -49,6 +48,7 @@ picture:
       source_default:
         width: "600"
 ```
+
 {{< hint info >}}
 Ensure your indentation is correct if copying a config - misalignment's will give you a dreaded generic error message `Liquid Exception: undefined method [] for nil:NilClass in _drafts/JekyllAnchors.md/#excerpt`
 {{< /hint >}}
@@ -70,7 +70,7 @@ FingerText enables me Notepad++ users to write blocks of text with a single keyw
 ```
 
 {{< hint warning >}}
-Jekyll-picture-tag also hates spaces in picture filenames. Not that you should have spaces in filenames anyway, but that's another thing I stumbled on
+Jekyll-picture-tag also hates spaces in picture filenames. Not that you should have spaces in filenames anyway, but that's another thing I stumbled on.
 {{< /hint >}}
 
 I now have images that (should) be responsive for mobile and desktop, and I don't have to do the resizing myself.
