@@ -1,7 +1,8 @@
 ---
-title: "Setting up emulators in Steam"
+title: "Installing ICE"
 permalink: /guides/steam_emulators/install_ice/
 image: steam_bigpicutre_retrogaming.png
+weight: 4
 ---
 
 ### Installing Ice

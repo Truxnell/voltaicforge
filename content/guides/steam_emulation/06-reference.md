@@ -2,6 +2,7 @@
 title: 'Reference'
 permalink: /guides/steam_emulators/reference/
 image: steam_bigpicutre_retrogaming.png
+weight: 6
 ---
 
 ### My config files

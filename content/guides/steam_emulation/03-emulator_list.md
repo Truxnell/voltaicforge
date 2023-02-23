@@ -1,7 +1,8 @@
 ---
-title: 'Setting up emulators in Steam'
+title: 'Emulator suggestions'
 permalink: /guides/steam_emulators/emulator_list/
 image: steam_bigpicutre_retrogaming.png
+weight: 3
 ---
 
 #### Emulator list

@@ -2,6 +2,7 @@
 title: 'Setting up emulators in Steam'
 permalink: /guides/steam_emulators/install_emulators/
 image: steam_bigpicutre_retrogaming.png
+weight: 2
 ---
 
 ### Installing Emulators

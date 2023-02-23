@@ -1,7 +1,8 @@
 ---
-title: 'Setting up emulators in Steam'
+title: 'Steam emulator premise'
 permalink: /guides/steam_emulators/premise/
-image: steam_bigpicutre_retrogaming.png
+image: 'steam_bigpicutre_retrogaming.png'
+weight: 1
 ---
 
 ## Premise

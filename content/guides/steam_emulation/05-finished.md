@@ -2,6 +2,7 @@
 title: 'Finishing up the install'
 permalink: /guides/steam_emulators/finished/
 image: steam_bigpicutre_retrogaming.png
+weight: 5
 ---
 
 ### Setup for steam controller.
