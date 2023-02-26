@@ -1,6 +1,6 @@
 ---
 title: "Installing ICE"
-image: steam_bigpicutre_retrogaming.png
+image: /projects/steam_emulation/steam_bigpicutre_retrogaming.png
 weight: 4
 ---
 
@@ -22,7 +22,7 @@ There are 3 files to modify in RetroArch. Note the general way Ice works is to b
 
 The only thing that really requires editing here is the `ROMs Directory` to match the location of your ROM folder.
 
-![Editing the Ice Config](Ice_config_txt.gif)
+![Editing the Ice Config]({{< dir >}}/ice_config_txt.gif)
 
 **emulators.txt**
 
@@ -52,7 +52,7 @@ location=D:\Emulation\RetroArch\retroarch.exe                                   
 command=%l -f -L d:\Emulation\RetroArch\cores\bsnes_balanced_libretro.dll %r    # Command line to build for steam shortcut
 ```
 
-![Editing the Ice emulator config](Ice_Emulator_config.gif)
+![Editing the Ice emulator config]({{< dir >}}/Ice_Emulator_config.gif)
 
 For example, the above setup would instruct Ice to build the following command if it was parsing for a game ROM located in `D:\Emulation\Roms\SNES\SNES_game.zip`
 
@@ -75,7 +75,7 @@ emulator=retroarch_snes        # emulator to link to in emulators.txt that
 extensions=zip                # file extensions to consider a game, separated by a comma 'i.e. zip, sfc'
 ```
 
-![Editing the Ice console config](Ice_Console_config.gif)
+![Editing the Ice console config]({{< dir >}}//Ice_Console_config.gif)
 
 {{< hint info >}}
 Ensure you have the correct extension listed here, as it is easy to forget to change it. If you have a .iso game file and you have forgotten to change it from .zip for example, Ice won't find the game.
@@ -95,7 +95,7 @@ Ensure Steam is closed and run Ice and check the text that comes up at the comma
 
 If anything is missing from the output check the relevant config file.
 
-![Running Ice](Ice_running.gif)
+![Running Ice]({{< dir >}}/Ice_running.gif)
 
 If it was successful when you open steam you will be greeted with a list of games.
 
@@ -112,7 +112,7 @@ The image should be 460x215. Once downloaded, switch to grid view in Steam, Righ
 You may need to change from `.jpeg` to `.png` depending on your file type in the file selection dialogue.
 {{< /hint >}}
 
-![Setting custom image art steam](Setting_custom_image_steam.gif)
+![Setting custom image art steam]({{< dir >}}/Setting_custom_image_steam.gif)
 [Ice]: http://scottrice.github.io/Ice/
 
 [Ice Github]: https://github.com/scottrice/Ice
