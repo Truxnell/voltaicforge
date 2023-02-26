@@ -2,6 +2,7 @@
 title: "The Empty Village"
 excerpt: "The milkrun errand gone sour"
 permalink: /projects/dnd/The_Empty_Village/
+weight: 1
 header:
     overlay_filter: 0.5
     overlay_image: /assets/images/lathander_crest.png

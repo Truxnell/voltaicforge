@@ -1,7 +1,6 @@
 ---
-title: 'Steam emulator premise'
-permalink: /guides/steam_emulators/premise/
-image: 'steam_bigpicutre_retrogaming.png'
+title: "Steam emulator premise"
+image: "steam_bigpicutre_retrogaming.png"
 weight: 1
 ---
 
@@ -35,9 +34,4 @@ For setup, we need to:
 [Ice]: http://scottrice.github.io/Ice/
 
 [Steam Link]: {{< relref "/post/2016/2016-07-24-steam-link-ultimate-console" >}}
-[Ice Github]: https://github.com/scottrice/Ice
-[RetroArch]: https://www.libretro.com/
-[LaunchBoxForumPost]:https://forums.launchbox-app.com/topic/28762-command-line-parameters-arguments/
-[PCSX2]: http://pcsx2.net/
-[Dolphin]: https://dolphin-emu.org
 [Steam Controller]: {{< relref "/post/2016/2016-09-18-steam-controller-worthy-addition" >}}

@@ -1,6 +1,5 @@
 ---
-title: 'Setting up emulators in Steam'
-permalink: /guides/steam_emulators/install_emulators/
+title: "Setting up emulators in Steam"
 image: steam_bigpicutre_retrogaming.png
 weight: 2
 ---
@@ -45,13 +44,6 @@ Select a core for the console you are looking to emulate. For this example, lets
 Note that emulators aren't perfect, and there will inevitably be the occasional glitch, missing texture, etc. It's difficult to perfectly emulate some system even on modern CPU's, so often taking a balanced emulator is a good tradeoff between performance and accuracy.
 {{< /hint >}}
 
-[Ice]: http://scottrice.github.io/Ice/
-
-[Steam Link]: {{< relref "/post/2016/2016-07-24-steam-link-ultimate-console" >}}
-[Ice Github]: https://github.com/scottrice/Ice
 [RetroArch]: https://www.libretro.com/
-[LaunchBoxForumPost]:https://forums.launchbox-app.com/topic/28762-command-line-parameters-arguments/
-[PCSX2]: http://pcsx2.net/
-[Dolphin]: https://dolphin-emu.org
-[Steam Controller]: {{< relref "/post/2016/2016-09-18-steam-controller-worthy-addition" >}}
+
 ![RetroArch at the core updater list](retroarch_core_updater.png)

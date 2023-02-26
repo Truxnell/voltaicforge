@@ -1,7 +1,7 @@
 ---
-title: 'Ordbot'
+title: "Ordbot"
 permalink: /projects/ordbot/
-images: ordbot_r2.jpg
+image: ordbot_r2.jpg
 ---
 
 # Ordbod Hardon build

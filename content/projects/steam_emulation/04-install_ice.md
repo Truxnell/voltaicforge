@@ -1,6 +1,5 @@
 ---
 title: "Installing ICE"
-permalink: /guides/steam_emulators/install_ice/
 image: steam_bigpicutre_retrogaming.png
 weight: 4
 ---
@@ -40,14 +39,14 @@ Ensure you change the folder paths to match your Retroarch location.
 
 The command will take the following variables:
 
-```
+```yaml
 %l = The path of the emulator, given in the location config line.
 %r = The path to the ROM
 ```
 
 Looking the RetroArch documents, we want to pass the `-f` argument to launch into fullscreen, the `-L` argument with a core path to tell RetroArch which core to emulate the ROM with, and then the ROM itself. The below will be the entry for this Super Nintendo emulator.
 
-```
+```yaml
 [retroarch_snes]                                                                # name of this emulator setup
 location=D:\Emulation\RetroArch\retroarch.exe                                    # Emulator executable location
 command=%l -f -L d:\Emulation\RetroArch\cores\bsnes_balanced_libretro.dll %r    # Command line to build for steam shortcut
@@ -104,8 +103,8 @@ If it was successful when you open steam you will be greeted with a list of game
 
 If Ice couldn't find cover art for your game, you may need to grab some manually. Find and download a custom one (or even make some and share them back to the community?) at the below links:
 
-- [r/steamgrid][reddit.com/r/steamgrid]
-- [http://steambanners.booru.org][http://steambanners.booru.org]
+- [r/steamgrid](reddit.com/r/steamgrid)
+- [http://steambanners.booru.org](http://steambanners.booru.org)
 
 The image should be 460x215. Once downloaded, switch to grid view in Steam, Right click and select `Set custom image`. Browse to the location of the custom image and select it.
 
@@ -116,11 +115,4 @@ You may need to change from `.jpeg` to `.png` depending on your file type in the
 ![Setting custom image art steam](Setting_custom_image_steam.gif)
 [Ice]: http://scottrice.github.io/Ice/
 
-[Steam Link]: {{< relref "/post/2016/2016-07-24-steam-link-ultimate-console" >}}
 [Ice Github]: https://github.com/scottrice/Ice
-[RetroArch]: https://www.libretro.com/
-[LaunchBoxForumPost]:https://forums.launchbox-app.com/topic/28762-command-line-parameters-arguments/
-[PCSX2]: http://pcsx2.net/
-[Dolphin]: https://dolphin-emu.org
-[Steam Controller]: {{< relref "/post/2016/2016-09-18-steam-controller-worthy-addition" >}}
-

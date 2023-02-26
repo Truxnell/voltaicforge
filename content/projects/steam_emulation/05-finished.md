@@ -1,6 +1,5 @@
 ---
-title: 'Finishing up the install'
-permalink: /guides/steam_emulators/finished/
+title: "Finishing up the install"
 image: steam_bigpicutre_retrogaming.png
 weight: 5
 ---
@@ -30,12 +29,4 @@ A. Download and set your own custom art manually. It's worth the effort!.
 **Q. The link does nothing in Steam**
 
 A. Check in steam if the link is working by inspecting the build shortcut link in steam. Find the game, and check the link in `Right click -> Properties -> Target`. You should be able to copy this into a command line and execute it with a working ROM. If it doesn't work, check all the paths are correct, and if not correct them in your config files.
-[Ice]: http://scottrice.github.io/Ice/
-
-[Steam Link]: {{< relref "/post/2016/2016-07-24-steam-link-ultimate-console" >}}
-[Ice Github]: https://github.com/scottrice/Ice
-[RetroArch]: https://www.libretro.com/
-[LaunchBoxForumPost]:https://forums.launchbox-app.com/topic/28762-command-line-parameters-arguments/
-[PCSX2]: http://pcsx2.net/
-[Dolphin]: https://dolphin-emu.org
 [Steam Controller]: {{< relref "/post/2016/2016-09-18-steam-controller-worthy-addition" >}}

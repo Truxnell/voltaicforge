@@ -1,0 +1,13 @@
+<nav class="pagination" style="display: flex; justify-content: space-between">
+  {{ with .NextInSection }}
+  <span class="page-link page-link-reverse">
+    <a class="link-reverse" href="{{.RelPermalink}}?ref=footer">« {{ .Title | truncate 50 "..." }}</a>
+  </span>
+  {{ else }}
+  <span class="page-link page-link-reverse">&nbsp;</span>
+  {{ end }} {{ with .PrevInSection }}
+  <span class="page-link page-link-forward" style="text-align: right">
+    <a class="link-forward" href="{{.RelPermalink}}?ref=footer">{{ .Title | truncate 50 "..."}} »</a>
+  </span>
+  {{ end }}
+</nav>
