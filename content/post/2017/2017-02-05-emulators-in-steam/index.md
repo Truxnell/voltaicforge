@@ -1,7 +1,8 @@
 ---
 title: "Guide added for Steam Emulation"
 description: "Guide to adding emulators to your Steam Link or Big Picture setup."
-image: steam_big_picture_retrogaming.png
+image: steam_bigpicture_retrogaming.png
+
 categories:
   - Games
 tags:
