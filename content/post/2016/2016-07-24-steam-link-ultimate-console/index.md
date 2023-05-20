@@ -18,7 +18,7 @@ In short, Valve's [Steam Link][steamlink] is a small box (not much larger the si
 If you ever wanted all your emulation in once place, your modern games playing friends side by side with Zelda, Super Mario 3, River Raid, Sonic or perhaps even Goldeneye, you need to get this!
 
 {{< hint notice >}}
-I have written a guide for neatly setting up emulators to work with Steam Big Picture/Steam Link. Check it out [here](link \_steam_emulators/premise/index.md)
+I have written a guide for neatly setting up emulators to work with Steam Big Picture/Steam Link. Check it out [here]({{< relref "/guides/steam_emulation/premise/index.md" >}})
 {{< /hint >}}
 
 > _**I call it the ultimate console.**_ Who doesn't want all your games in one place - from Atari to the latest releases?
@@ -54,7 +54,7 @@ That's about it. It runs off an ARMv7 with a dedicated h.264 hardware decoding, 
 
 But it will stream from your PC at 1080p @ 60hz if your gaming PC is up to the task. Not only that, but with Big Picture it will do this seamlessly with a nice, functional interface, it will manage your controllers (Xbox, PS4, racing wheel, etc), and it works like a console. Hell, it's so tiny that it is easily hideable behind any TV - my wall mounted TV has no need for a shelf to put a bulky console on.
 
-> Note it is best paired with a Steam Controller. I've done a short write up on the Steam Link [here]({% post_url 2016-09-18-steam-controller-worthy-addition %}).
+> Note it is best paired with a Steam Controller. I've done a short write up on the Steam Link [here]({{< relref "/post/2016/2016-09-18-steam-controller-worthy-addition/index.md" >}}).
 
 ## One week with the steam link.
 

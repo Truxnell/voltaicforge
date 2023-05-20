@@ -23,8 +23,8 @@ On top of that, you can customise dead zones, scalings, haptics, sensitivity, an
 
 Frankly, it's intimidating. It needn't be, however, as for any game a number of user profiles are shared so you don't need to setup from scratch every game. You can simply load a profile from another user (usually the most popular one) and tweak from there. Sometimes the developer will list an official profile - or perhaps you can just use one of the templates for the game's genre.
 
-> Note it is pairs as well with a Steam Link as a PC. I've done a short write up on the Steam Link [here]({{< ref "2016-07-24-steam-link-ultimate-console" >}}).
-{{< relref "/guides/steam_emulation/premise/index.md" >}}
+> Note it is pairs as well with a Steam Link as a PC. I've done a short write up on the Steam Link [here]({{< ref "/post/2016/2016-07-24-steam-link-ultimate-console/index.md" >}}).
+
 The controller just works &trade; with the Steam Link _if_ you follow the instructions - like I didn't. It does come with a dongle for using with a PC, but it isn't required if you pair it with a Steam Link. Read the instructions first, like I didn't!
 
 ![Steam Controller Unboxing](steam_controller_unboxing_2.jpg)
