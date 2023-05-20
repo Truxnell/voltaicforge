@@ -1,6 +1,6 @@
 ---
-title: 'Setting up Dropbox and encryption in Linux'
-description: 'My approach to setting up Dropbox and Encfs in Linux'
+title: "Setting up Dropbox and encryption in Linux"
+description: "My approach to setting up Dropbox and Encfs in Linux"
 image: encrypted_encfs_dropbox.png
 categories:
   - Games
@@ -55,6 +55,6 @@ When called, this calls encfs, and supply the password by outputting the file cr
 
 Whilst there are a number of places we could call this upon startup to ensure its loaded upon startup, I chose the lazy option and just had it in my Cinnamon startup apps.
 
-![Add Startup Program Cinnamon](Add_Startup_Program_Cinnamon.png)
+![Add Startup Program Cinnamon](add_startup_program_cinnamon.png)
 
 Now, place your files in the `~Private folder`. They will be encryped into the `~/Dropbox/encrypted/` folder. Repead on another computer to have shared sync.

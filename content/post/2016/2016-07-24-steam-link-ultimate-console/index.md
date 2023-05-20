@@ -18,7 +18,8 @@ In short, Valve's [Steam Link][steamlink] is a small box (not much larger the si
 If you ever wanted all your emulation in once place, your modern games playing friends side by side with Zelda, Super Mario 3, River Raid, Sonic or perhaps even Goldeneye, you need to get this!
 
 {{< hint notice >}}
-I have written a guide for neatly setting up emulators to work with Steam Big Picture/Steam Link. Check it out [here](link \_steam_emulators/01-premise.md)
+I have written a guide for neatly setting up emulators to work with Steam Big Picture/Steam Link. Check it out [here](link \_steam_emulators/premise/index.md)
+{{< /hint >}}
 
 > _**I call it the ultimate console.**_ Who doesn't want all your games in one place - from Atari to the latest releases?
 
@@ -75,7 +76,7 @@ This has opened up a realm of games that I've wanted to play but didn't want to 
 
 Now, if you are like me and you love emulating old games - you're in for a treat. You can ditch fiddly front ends and use steam to manage your games - and stream them via your Steam Link as if you had your SNES, N64, Playstation, Atari, Sega, whatever plugged in. A GitHub project called [Ice][ice] can be setup to run through a ROM directory, and manage adding/removing a custom game to your steam list that will launch an emulator of your choice, passing the game as a command and launching the emulator directly into the ROM.
 
-I've written a guide [here]({{< relref "/projects/steam_emulation/01-premise.md" >}}) covering how to set this up.
+I've written a guide [here]({{< relref "/guides/steam_emulation/premise/index.md" >}}) covering how to set this up.
 
 ![Emulating SNES via Steam Big Picture and Steam Link](steam_big_picture_snes_super_mario_all_stars.jpg)
 

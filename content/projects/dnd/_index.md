@@ -1,5 +1,5 @@
 ---
 title: "DnD Journal"
 image: "lathander_crest.png"
-description: a
+description: A Storm King's Crown DnD Journal
 ---
