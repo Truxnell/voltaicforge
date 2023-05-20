@@ -17,7 +17,7 @@ Recently I started playing around with the RasPI squeezebox solution [piCorePlay
 
 Off to AliExpress I went and found a cheap(ish) little Bluetooth speaker set. It actually had a decent set of features, pity I would not be using most of them.
 
-![Raspi Squeesebox player](raspi_squeezebox_player_and_app.jpg)
+![Raspi Squeezebox player](raspi_squeezebox_player_and_app.jpg)
 
 Above is the finished player (which looks the same as how it comes out of the box). I managed to fit a RasPI 1 inside of it, wired up to the power and aux input jack. The PI connects wirelessly to my wireless network by a Wifi dongle and runs off the Logitec Media Server software. So via an app or internal website I can play music or radio and media server will kick off the RasPI to play, pause, volume, etc.
 
@@ -27,7 +27,7 @@ It's truly a poor man's [Sonos][Sonos].
 
 The speaker is a cheap Bluetooth-capable speaker off AliExpress. It's got more functionality than I wanted but was the only one I liked the look of that could potentially fit a RasPI. I got it Friday night and quickly tore it down.
 
-![cheap_speaker_teardown.jpg](Teardown of a cheap chinese bluetooth speaker)
+![Teardown of a cheap chinese bluetooth speaker](cheap_speaker_teardown.jpg)
 
 I found that it indeed did have enough room to hide a RasPI. But only just, and only after the RasPI has undergone some radical weight reduction. I setup a wifi dongle I had lying around to run on the RasPi and verified it worked before proceeding - I already had Logitec Media Player on a virtual machine running on my server.
 
