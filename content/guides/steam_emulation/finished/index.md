@@ -1,6 +1,6 @@
 ---
 title: "Finishing up the install"
-image: /guides/steam_emulation/steam_big_picutre_retrogaming.png
+image: /guides/steam_emulation/steam_big_picture_retrogaming.png
 weight: 5
 ---
 
