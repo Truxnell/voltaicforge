@@ -1,6 +1,6 @@
 ---
 title: Projects
-description: Projects and guides that dont fit in a single blog post
+description: Projects that dont fit in a single blog post
 content_type: projects
 menu:
   main:
