@@ -21,4 +21,4 @@ Please note that this is just a guide with some suggestions. There is a selectio
 | Atari 2600   | [RetroArch] (stella core)         | -f -L d:\Emulation\RetroArch\cores\stella_libretro.dll %r          |
 | Atari 7800   | [RetroArch] (prosystem core)      | -f -L d:\Emulation\RetroArch\cores\prosystem_libretro.dll %r       |
 
-Another list can be found at the [BigBox forums][https://forums.launchbox-app.com/topic/28762-command-line-parameters-arguments/].
+Another list can be found at the [BigBox forums](https://forums.launchbox-app.com/topic/28762-command-line-parameters-arguments/).
