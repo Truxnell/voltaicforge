@@ -32,4 +32,5 @@ For setup, we need to:
 - Play old games using the Steam frontend.
 
 [Ice]: http://scottrice.github.io/Ice/
-
+[Steam Link]: {{< ref "post/2016/2016-07-24-steam-link-ultimate-console/index.md" >}}
+[Steam Controller]: {{< ref "/post/2016/2016-09-18-steam-controller-worthy-addition/index.md" >}}
