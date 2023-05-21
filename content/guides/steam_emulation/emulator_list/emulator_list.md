@@ -6,7 +6,7 @@ weight: 3
 
 #### Emulator list
 
-Note, this is only a guide for some suggestions - there is a selection of emulators and your favourite game may work better in a less popular emulator. Don't feel bound by this list.
+Please note that this is just a guide with some suggestions. There is a selection of emulators available, and your favorite game may work better with a less popular emulator. Feel free to explore beyond this list.
 
 | Console      | Emulator                          | Command Arguments                                                  |
 | ------------ | --------------------------------- | ------------------------------------------------------------------ |
@@ -23,6 +23,6 @@ Note, this is only a guide for some suggestions - there is a selection of emulat
 
 Another list can be found at the [BigBox forums][LaunchBoxForumPost].
 [RetroArch]: https://www.libretro.com/
-[LaunchBoxForumPost]:https://forums.launchbox-app.com/topic/28762-command-line-parameters-arguments/
+[LaunchBoxForumPost]: https://forums.launchbox-app.com/topic/28762-command-line-parameters-arguments/
 [PCSX2]: http://pcsx2.net/
 [Dolphin]: https://dolphin-emu.org
