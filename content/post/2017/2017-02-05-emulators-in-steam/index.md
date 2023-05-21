@@ -16,4 +16,4 @@ I have added a tutorial for an excelent, tidy setup for running all your retro c
 
 Check it out [here]({{< relref "/guides/steam_emulation/premise/index.md" >}})
 
-![Steam Big Picture list with many super nintendo games](steam_big_picture_retrogaming.png)
+![Steam Big Picture list with many super nintendo games](steam_bigpicture_retrogaming.png)

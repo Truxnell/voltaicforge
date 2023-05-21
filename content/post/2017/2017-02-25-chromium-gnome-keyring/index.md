@@ -3,10 +3,7 @@ title: 'Stop Chromium asking for keyring unlock'
 description: 'Stopping Chromium asking for gnome-keyring login on launch'
 image: chromium-gnome-banner.png
 categories:
-  - Games
-tags:
-  - Steam
-  - Emulation
+  - homelab
 ---
 
 ## Removing keychain login from Chormium

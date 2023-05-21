@@ -4,7 +4,7 @@ aliases: /consumer-electronics/6P-pocketdial-woes/
 description: 'Frustrations with 6P pocketdials and the settings that need to be off to resolve'
 image: nexus-6p-bend.png
 categories:
-  - Consumer-Electronics
+  - Electronics
 tags:
   - Nexus 6P
 toc: false

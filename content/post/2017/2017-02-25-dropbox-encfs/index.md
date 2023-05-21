@@ -3,10 +3,7 @@ title: "Setting up Dropbox and encryption in Linux"
 description: "My approach to setting up Dropbox and Encfs in Linux"
 image: encrypted_encfs_dropbox.png
 categories:
-  - Games
-tags:
-  - Steam
-  - Emulation
+  - Homelab
 ---
 
 ## Premise

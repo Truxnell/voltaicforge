@@ -4,7 +4,7 @@ description: 'Docking a PuTTY window into Notepad++ is a big help when developin
 aliases: /software/SSH-Terminal-In-Notepadpp/
 image: putty_teaser.png
 categories:
-  - Software
+  - Homelab
 tags:
   - Jekyll
   - Notepad++

@@ -3,9 +3,9 @@ title: 'Homebrewing Again'
 description: 'Beginning a homebrewing journey'
 image: homebrew_fermenter.png
 categories:
-  - Homebrew
+  - Homebrewing
 tags:
-  - Homebrew
+  - Beer
 ---
 
 ## Homebrewing again

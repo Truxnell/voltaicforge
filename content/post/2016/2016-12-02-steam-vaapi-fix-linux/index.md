@@ -7,7 +7,6 @@ categories:
   - Linux
 tags:
   - Steam
-  - Linux
   - VAAPI
 ---
 
