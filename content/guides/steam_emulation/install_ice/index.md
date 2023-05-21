@@ -111,6 +111,6 @@ You may need to change from `.jpeg` to `.png` depending on your file type in the
 {{< /hint >}}
 
 ![Setting custom image art steam](Setting_custom_image_steam.gif)
-[Ice]: http://scottrice.github.io/Ice/
 
+[Ice]: http://scottrice.github.io/Ice/
 [Ice Github]: https://github.com/scottrice/Ice
