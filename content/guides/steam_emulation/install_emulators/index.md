@@ -42,3 +42,4 @@ Select a core for the console you want to emulate. In this example, let's choose
 
 {{< hint info >}}
 Note that emulators aren't perfect, and there will inevitably be occasional glitches, missing textures, etc. It's difficult to perfectly emulate some systems even on modern CPUs, so choosing a balanced emulator is often
+{{< /hint >}}
