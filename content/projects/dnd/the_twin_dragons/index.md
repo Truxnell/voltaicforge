@@ -1,10 +1,8 @@
 ---
 title: "The Twin Dragons"
+weight: 09
 permalink: /projects/dnd/The_Twin_Dragons/
 excerpt: "Oh, we're sorry, is this your stuff?"
-header:
-    overlay_filter: 0.5
-    overlay_image: /assets/images/lathander_crest.png
 ---
 
 ### 25th Marpenoth, the Star Walkers Return

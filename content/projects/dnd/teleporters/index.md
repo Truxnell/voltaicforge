@@ -1,10 +1,8 @@
 ---
 title: "Wizards and Teleporters"
+weight: 07
 permalink: /projects/dnd/Wizards_and_Teleporters/
 excerpt: "We've used horses all this time?"
-header:
-    overlay_filter: 0.5
-    overlay_image: /assets/images/lathander_crest.png
 ---
 
 ### 13th Marpenoth, the Star Walkers Return

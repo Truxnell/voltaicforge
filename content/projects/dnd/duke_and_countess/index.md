@@ -1,10 +1,8 @@
 ---
 title: "Duke and Countess"
+weight: 15
 permalink: /projects/dnd/Duke_and_Countess/
 excerpt: "One big happy family"
-header:
-    overlay_filter: 0.5
-    overlay_image: /assets/images/lathander_crest.png
 
 ---
 

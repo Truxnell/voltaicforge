@@ -1,10 +1,8 @@
 ---
 title: "Betrayal at Deadstone"
+weight: 11
 permalink: /projects/dnd/Betrayal_at_Deadstone/
 excerpt: "Politics, our way"
-header:
-    overlay_filter: 0.5
-    overlay_image: /assets/images/lathander_crest.png
 ---
 
 ### 9th – 10th Uktar, the Star Walkers Return

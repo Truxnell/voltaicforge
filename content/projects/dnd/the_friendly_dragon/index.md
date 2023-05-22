@@ -1,10 +1,8 @@
 ---
 title: "The Friendly Dragon"
+weight: 03
 excerpt: "So you're real, huh?"
 permalink: /projects/dnd/The_Friendly_Dragon/
-header:
-    overlay_filter: 0.5
-    overlay_image: /assets/images/lathander_crest.png
 --- 
 
 

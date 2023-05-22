@@ -1,11 +1,9 @@
 ---
 title: "The Empty Village"
+weight: 01
 excerpt: "The milkrun errand gone sour"
 permalink: /projects/dnd/The_Empty_Village/
 weight: 1
-header:
-    overlay_filter: 0.5
-    overlay_image: /assets/images/lathander_crest.png
 --- 
 
 ### Tirdas, 14th Second Seed

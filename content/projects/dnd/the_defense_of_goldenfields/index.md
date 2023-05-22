@@ -1,10 +1,8 @@
 ---
 title: "The Defence of Goldenfields"
+weight: 02
 excerpt: "Defending a town from arrogance"
 permalink: /projects/dnd/The_Defence_of_Goldenfields/
-header:
-    overlay_filter: 0.5
-    overlay_image: /assets/images/lathander_crest.png
 --- 
 
 

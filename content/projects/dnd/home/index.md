@@ -1,10 +1,8 @@
 ---
 title: "Home"
+weight: 13
 permalink: /projects/dnd/Home/
 excerpt: "Home is where your heart is"
-header:
-    overlay_filter: 0.5
-    overlay_image: /assets/images/lathander_crest.png
 ---
 
 ### 23rd Uktar  the Star Walkers Return

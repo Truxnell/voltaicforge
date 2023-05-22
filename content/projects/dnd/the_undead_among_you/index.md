@@ -1,10 +1,8 @@
 ---
 title: "The Undead Among You"
+weight: 05
 permalink: /projects/dnd/The_Undead_Among_You/
 excerpt: "The dead lay dying"
-header:
-    overlay_filter: 0.5
-    overlay_image: /assets/images/lathander_crest.png
 ---
 
 ### 3rd Marpenoth, the Star Walkers Return (continued)

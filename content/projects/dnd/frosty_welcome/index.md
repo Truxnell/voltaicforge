@@ -1,10 +1,8 @@
 ---
 title: "Frosty Welcome"
+weight: 12
 permalink: /projects/dnd/Frosty_Welcome/
 excerpt: "Cold Open"
-header:
-    overlay_filter: 0.5
-    overlay_image: /assets/images/lathander_crest.png
 ---
 
 ### 15th - 19th Uktar, the Star Walkers Return

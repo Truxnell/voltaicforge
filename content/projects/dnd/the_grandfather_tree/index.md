@@ -1,10 +1,8 @@
 ---
 title: "The Grandfather Tree"
+weight: 06
 permalink: /projects/dnd/The_Grandfather_Tree/
 excerpt: "John's quest, completed"
-header:
-    overlay_filter: 0.5
-    overlay_image: /assets/images/lathander_crest.png
 ---
 
 ### 9th Marpenoth, the Star Walkers Return (Continued)

@@ -1,10 +1,8 @@
 ---
 title: "The Oracle"
+weight: 08
 permalink: /projects/dnd/The_Oracle/
 excerpt: "When you meet a god and have nothing to say"
-header:
-    overlay_filter: 0.5
-    overlay_image: /assets/images/lathander_crest.png
 ---
 
 ### 22th Marpenoth, the Star Walkers Return
