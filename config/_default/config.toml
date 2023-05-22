@@ -4,6 +4,7 @@ languageCode = "en-au"
 paginate = 5
 title = "Voltaicforge"
 buildDrafts = false 
+enableGitInfo = true
 
 [minify]
 [minify.tdewolff]
@@ -40,4 +41,3 @@ hasCJKLanguage = false
 
 # Change it to your Disqus shortname before using
 # disqusShortname = "hugo-theme-stack"
-enableGitInfo = true
