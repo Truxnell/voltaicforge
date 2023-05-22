@@ -47,10 +47,10 @@ PCB in the middle of the board hosts some TRIACS, bridge rectifier, MMOC3041 opt
 
 The control panel has two S3F94C4EZZ MCU's and two LED display drivers (TM1620 & TM1628). Can't determine the manufacture for the MCU's, I get either a Samsung or Zilog part - I'll leave you to guess which I think is the more likely manufacturer. Not much else happening there, soldering continues to look fine. I can't see any post-production fixes or anything untoward dodgy - if I had been given the photos to look at without knowing where it came from it would look visually OK to me.
 
-Wait a minute here - the control PCB has a silk-screen designator of 'YH852DV5A'. Clearly the same control board as the Yihua model. After some googling I found an [EEVBlog post](eevblogpost) regarding the Yihua which showed a photo with an identical control board, but what to me looked like a significantly worse power board.
+Wait a minute here - the control PCB has a silk-screen designator of 'YH852DV5A'. Clearly the same control board as the Yihua model. After some googling I found an [EEVBlog post][eevblogpost] regarding the Yihua which showed a photo with an identical control board, but what to me looked like a significantly worse power board.
 
 Meanwhile, whilst I wait to see if Shenzhen lets me down again I will continue to enjoy my nifty little soldering station.
 
 [eevblogpost]: http://www.eevblog.com/forum/reviews/new-toy-yihua-853dplus-rework-station/
-[jwco]: http://www.jiaweicheng.com/EN
+[jwco]: http://www.jiaweicheng.com/
 [s4repairpost]: http://127.0.0.1:4000/electronics/s4-soft-button-repair/

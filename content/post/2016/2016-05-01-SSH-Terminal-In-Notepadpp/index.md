@@ -27,7 +27,7 @@ To do the same as I have above, it’s actually pretty simple.
 Download:
 
 - [Plink][plink] - PuTTY command line
-- [Ansicon][ansicon] - Ansi escape sequence converter (to convert Linux CLI escape codes to Windows CLI, else the terminal doesn't work well)
+- ~~Ansicon~~ - (Git repo defunct) Ansi escape sequence converter (to convert Linux CLI escape codes to Windows CLI, else the terminal doesn't work well)
 - [nppconsole][nppconsole] - Notepad++ console plugin.
   {{< hint warning >}}
   I had to use the older `11.53` ansicon version under Windows 10 x64, the later versions crashed frequently.

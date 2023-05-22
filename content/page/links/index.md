@@ -7,7 +7,7 @@ links:
     image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
   - title: Fediverse
     description: My Fediverse contact
-    website: https://github.com/truxnell
+    website: https://fedi.voltaicforge.com/@truxnell
     image: https://upload.wikimedia.org/wikipedia/commons/3/30/Fediverse_logo_proposal_%28mono_version%29.svg
   - title: Rainchilddotcom
     description: Rainchilddotcom's personal site

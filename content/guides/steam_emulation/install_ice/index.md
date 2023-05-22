@@ -101,7 +101,7 @@ If it was successful when you open steam you will be greeted with a list of game
 
 If Ice couldn't find cover art for your game, you may need to grab some manually. Find and download a custom one (or even make some and share them back to the community?) at the below links:
 
-- [r/steamgrid](reddit.com/r/steamgrid)
+- [r/steamgrid](https://reddit.com/r/steamgrid)
 - [http://steambanners.booru.org](http://steambanners.booru.org)
 
 The image should be 460x215. Once downloaded, switch to grid view in Steam, Right click and select `Set custom image`. Browse to the location of the custom image and select it.
