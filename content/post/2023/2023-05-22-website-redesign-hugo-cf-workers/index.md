@@ -1,7 +1,7 @@
 ---
 title: Website redesign with Hugo & Cloudflare pages!
 description: 'Embracing a new future with Hugo & Cloudflare pages for a personal static site'
-image: ./new_site_nvim.png
+image: new_site_nvim.png
 categories:
   - Website
 tags:
