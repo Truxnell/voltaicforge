@@ -1,6 +1,6 @@
 ---
 title: DuckDNS with UDM Pro
-description: 'Configuring the UDM PRO to use DuckDNS'
+description: "Configuring the UDM PRO to use DuckDNS"
 image: linux_stock.png
 categories:
   - Homelab
@@ -12,10 +12,10 @@ tags:
 
 I recently got a UDM Pro and have just managed to get DuckDNS working.
 
-There is many other suggestions on the internet, for using the webui with 'dyndns' and a variety of settings that should worke.
+There are many other suggestions on the internet, for using the webui with 'dyndns' and a variety of settings that should work.
 None did for me as of today, on UDM-Pro software version 1.11.0.
 
-UDM currently uses the software inadyn to provide its ddns capabilities - and it has more providers avaliable that what is exposed in the WebUI.
+UDM currently uses the software inadyn to provide its ddns capabilities—and it has more providers available that what is exposed in the WebUI.
 To get it working I edited the `inadyn.conf` manually via SSH.
 (Google `UDM SSH Setup` if you need to setup SSH access to your UDM)
 
@@ -31,7 +31,7 @@ Once SSH'd into the UDM, check what config the file your UDM is running:
 In this case, my config file is located at `/run/ddns-eth8-inadyn.conf`
 
 Edit the file (using VI) and add a duckdns config block:
-(VI by default doesnt allow editing, press `i` to enter 'interactive' mode to turn it into a text editor)
+(VI by default doesn't allow editing, press `i` to enter 'interactive' mode to turn it into a text editor)
 
 ```text
 provider duckdns.org:2 {
@@ -43,4 +43,4 @@ provider duckdns.org:2 {
 
 Save and close. On VI, `ESC` will exit interactive mode, then `:wq` will 'Write and Quit'
 
-This has successfuly got me running with Duck on UDM - but hacky, and wont be part of a backup
+This has successfully got me running with Duck on UDM—but hacky, and won't be part of a backup
