@@ -24,9 +24,9 @@ So the goal of any new setup needed to be an easy as possible workflow for writi
 As I was already running a [language-tools](https://languagetool.org/) docker instance in my cluster I was keen to utilise it as well, over sending my data out to another website for review.
 I found [ltex-ls](https://www.google.com/search?q=ltex-ls) a good candidate for integrating spell/grammar checking, so I added it to my [Lazyvim](https://www.lazyvim.org/) config.
 
-After some fiddling with it, I found that I wasn't able to add Neovim's default additional dictionary words to it—the docs show its able to load an external file for user added words. However, this isn't functional in ltex-ls. You can make a workaround by running lua to load the nvim user dictionary words, then pass them into the model. This doesn't reload unless you restart nvim, which can be a tad annoying as it adding a word doesn't remove the error until you restart nvim.
+After some fiddling with it, I found that I wasn't able to add Neovim's default additional dictionary words to it—the docs show its able to load an external file for user added words. However, this isn't functional in `ltex-ls`. You can make a workaround by running lua to load the nvim user dictionary words, then pass them into the model. This doesn't reload unless you restart nvim, which can be a tad annoying as it adding a word doesn't remove the error until you restart nvim.
 
-Using ltex-extra provides a wrapper to enable some of these functions and adds code actions. I was able to set up my nvim directory as the location for user added words, and it loaded this dictionary at load/new words being added.
+Using `ltex-extra` provides a wrapper to enable some of these functions and adds code actions. I was able to set up my nvim directory as the location for user added words, and it loaded this dictionary at load/new words being added.
 
 So now, a `[d` or `]d` takes me to the next diagnostic, `<leader>cd` will show me a popup with the diagnostic text, and `<leader>ca` brings up code actions with proposed fixes or the ability to add words to the dictionary. `<leader>sd` will bring all document diagnostics in a telescope window.
 
@@ -104,7 +104,7 @@ _~/.config/nvim/lua/plugins/lsp.lua_
   },
 ```
 
-And once satisfied in the results, disable Lazyvim's spellcheck.
+And once satisfied in the results, disable Lazyvim's spellcheck, to avoid having two sets of spell checking occurring, especially as Neovim isn't aware of the user words you are adding via `ltex-extra`.
 
 _~/.config/nvim/lua/config/autocmds.lua_
 
