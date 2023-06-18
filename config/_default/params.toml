@@ -5,7 +5,7 @@ rssFullContent = true
 
 [footer]
 since = 2016
-customText = ""
+customText = "No cookies, no AI text, no ads, no data farming.  Made with ❤️  by a human."
 
 [dateFormat]
 published = "Jan 02, 2006"
