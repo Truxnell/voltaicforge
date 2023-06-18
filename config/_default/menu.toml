@@ -22,3 +22,11 @@ url = "https://fedi.voltaicforge.com/"
 
 [social.params]
 icon = "brand-mastodon"
+
+[[social]]
+identifier = "tokenring"
+name = "Token Webring"
+url = "https://tokenring.monoxane.io/#voltaicforge"
+
+[social.params]
+icon = "tokenring-icon-dark"
