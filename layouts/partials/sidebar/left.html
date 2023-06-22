@@ -44,8 +44,10 @@
                     <a 
                         href='{{ .URL }}'
                         {{ if eq (default true .Params.newTab) true }}target="_blank"{{ end }}
-                        {{ with .Name }}title="{{ . }}"{{ end }}
+                        {{ with .Name }}title="{{ . }}"
                         rel="noopener"
+                        data-umami-event="social-{{ . }}"
+                        {{ end }}
                     >
                         {{ $icon := default "link" .Params.Icon }}
                         {{ with $icon }}
